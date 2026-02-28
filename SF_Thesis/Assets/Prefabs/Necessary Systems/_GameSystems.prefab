@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2373302448878087652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5402725482940352225}
+  - component: {fileID: 8105994413411044190}
+  - component: {fileID: 2520074014821312518}
+  - component: {fileID: 8022664498500906004}
+  - component: {fileID: 7715848559358884830}
+  - component: {fileID: 4005341426790037028}
+  - component: {fileID: 7928977369265681078}
+  - component: {fileID: 6475607636331167344}
+  - component: {fileID: 2443275573110403129}
+  m_Layer: 0
+  m_Name: _GameSystems
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5402725482940352225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2373302448878087652}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 78.18523, y: 0, z: 5122.7075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8105994413411044190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2373302448878087652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66d1ad72d2bdb624496110b590d4f7b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  door: {fileID: 0}
+  openAction: {fileID: 7630854437902188375, guid: 56e502d8225e64d4885087e993720dc4, type: 3}
+  closeAction: {fileID: -424997642457790929, guid: 56e502d8225e64d4885087e993720dc4, type: 3}
+  toggleAction: {fileID: -2773654660643304554, guid: 56e502d8225e64d4885087e993720dc4, type: 3}
+  enableSensorAction: {fileID: -8971735562368145375, guid: 56e502d8225e64d4885087e993720dc4, type: 3}
+--- !u!114 &2520074014821312518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2373302448878087652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a720c7cd3a13d7a479ebd16f91e1e627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  voskSpeechToText: {fileID: 0}
+  toggle: {fileID: -5773749448679520392, guid: 56e502d8225e64d4885087e993720dc4, type: 3}
+--- !u!114 &8022664498500906004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2373302448878087652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe0161bfa3943d41915c96a2ec7e86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  securityCameras:
+  - {fileID: 0}
+  monsterIcon: {fileID: 0}
+  monsterTarget: {fileID: 0}
+--- !u!114 &7715848559358884830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2373302448878087652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd0b82969a27abe4fa72ab96e3cc1e32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  lastSeenDuration: 5
+--- !u!114 &4005341426790037028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2373302448878087652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bbb8b75b7c47484ea56aa19e6f21463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  mapRoot: {fileID: 0}
+  mapAction: {fileID: -6736605676285839942, guid: 56e502d8225e64d4885087e993720dc4, type: 3}
+  holdToOpen: 0
+--- !u!114 &7928977369265681078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2373302448878087652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 633c0ad194e51954cb509f61ce99c114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MissionDebugControls
+  enableDebugControls: 1
+  skipStepKey: 287
+  restartMissionKey: 286
+  enableJumpWithShiftNumber: 1
+--- !u!114 &6475607636331167344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2373302448878087652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e69d9aa3b3d822468ccf85d3f913de8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  checkpointManager: {fileID: 0}
+  enableLegacyKeyboard: 1
+  saveKey: 281
+  loadKey: 280
+  saveAction: {fileID: 0}
+  loadAction: {fileID: 0}
+  checkpointId: debug
+  showOnScreenButtons: 0
+--- !u!114 &2443275573110403129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2373302448878087652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cd546a5bc755ac4b9dff70a4a77978e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LetterboxUI
+  barsRoot: {fileID: 0}

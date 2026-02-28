@@ -1,0 +1,20 @@
+using UnityEngine;
+//------------------------------------------------
+// This class was generated with chat GPT
+//------------------------------------------------
+[CreateAssetMenu(menuName = "Missions/Actions/Door/Enable Sensor Control (DoorRegistry)")]
+public class Door_EnableSensorControlAction : StepAction
+{
+    public string doorId;
+
+    public override void Execute(MissionContext ctx)
+    {
+        if (!DoorRegistry.TryGetDoor(doorId, out var door) || door == null)
+        {
+            Debug.LogWarning($"[Door_EnableSensorControlAction] Door not found: '{doorId}'");
+            return;
+        }
+
+        door.EnableSensorControl();
+    }
+}

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44eaff7703e5ed74397e02923ec6316d, type: 3}
+  m_Name: NextMission_Security
+  m_EditorClassIdentifier: Assembly-CSharp::StartMissionAction
+  nextMission: {fileID: 11400000, guid: 37cffcb3b3578ea4c9af80177736e39b, type: 2}
+  startStepIndex: 0

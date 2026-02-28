@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fac8d077789b8c244a1efd86c6477e87, type: 3}
+  m_Name: 02_Step_Security_04
+  m_EditorClassIdentifier: Assembly-CSharp::MissionStepDefinition
+  stepId: step.security.04
+  objectiveText: Enter the chamber.
+  completeOnEventKey: security.04.complete
+  strictWhileActive: 1
+  onStart: []
+  onComplete:
+  - {fileID: 11400000, guid: ace1bf604e5a4c348923c56d8102e246, type: 2}
+  - {fileID: 11400000, guid: 478d98d1355649948903a6abf69cac57, type: 2}
+  - {fileID: 11400000, guid: 478d98d1355649948903a6abf69cac57, type: 2}
+  - {fileID: 11400000, guid: 0e66708819d490d4ab949088a653bb89, type: 2}

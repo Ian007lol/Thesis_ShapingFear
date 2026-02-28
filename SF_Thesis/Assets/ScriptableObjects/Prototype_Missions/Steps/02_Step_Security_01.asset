@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fac8d077789b8c244a1efd86c6477e87, type: 3}
+  m_Name: 02_Step_Security_01
+  m_EditorClassIdentifier: Assembly-CSharp::MissionStepDefinition
+  stepId: step.security.01
+  objectiveText: 'Make your way to the locker room to gather your equipment. '
+  completeOnEventKey: security.01.complete
+  strictWhileActive: 1
+  onStart: []
+  onComplete:
+  - {fileID: 11400000, guid: 71e3ea59250d4d64c8b8aaf2e5f02ba3, type: 2}
+  - {fileID: 11400000, guid: b19cfff480c73bc43a2385f70ce87991, type: 2}
+  - {fileID: 11400000, guid: a979ca5cd2efd1f46b06b17d45727a3e, type: 2}
+  - {fileID: 11400000, guid: 152f02ec1bab21b48a9785414b6c8304, type: 2}

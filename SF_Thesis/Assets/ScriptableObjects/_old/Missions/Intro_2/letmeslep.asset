@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e5dcc70bef8a64b86731b847c29b83, type: 3}
+  m_Name: letmeslep
+  m_EditorClassIdentifier: Assembly-CSharp::MissionDefinition
+  missionId: letmeslep
+  steps:
+  - {fileID: 11400000, guid: f1e3cadf6b5fdba4982e0bea8a3f7a70, type: 2}

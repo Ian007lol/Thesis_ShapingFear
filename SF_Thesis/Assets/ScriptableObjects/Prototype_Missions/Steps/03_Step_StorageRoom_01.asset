@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fac8d077789b8c244a1efd86c6477e87, type: 3}
+  m_Name: 03_Step_StorageRoom_01
+  m_EditorClassIdentifier: Assembly-CSharp::MissionStepDefinition
+  stepId: step.commandcenter.01
+  objectiveText: Head to the locker room [N-99].
+  completeOnEventKey: door.opened.N-99
+  strictWhileActive: 1
+  onStart: []
+  onComplete:
+  - {fileID: 11400000, guid: 954c2f52cdb6ce549865b32959e60909, type: 2}
+  - {fileID: 11400000, guid: eada4929ae9b4ab47b75d5f759bb6141, type: 2}
+  - {fileID: 11400000, guid: da51e18fcedf3eb48b6a0177f7e171ad, type: 2}
+  - {fileID: 11400000, guid: b17ded514142b90489cfdbf8ab1e2d14, type: 2}
+  - {fileID: 11400000, guid: 23838b56b8892864e8b0221acbf39047, type: 2}

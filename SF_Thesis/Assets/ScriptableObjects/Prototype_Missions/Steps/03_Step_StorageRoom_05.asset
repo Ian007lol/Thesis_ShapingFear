@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fac8d077789b8c244a1efd86c6477e87, type: 3}
+  m_Name: 03_Step_StorageRoom_05
+  m_EditorClassIdentifier: Assembly-CSharp::MissionStepDefinition
+  stepId: step.storageroom.05
+  objectiveText: Proceed to your office [N-85]  on the second floor to clock in on
+    your computer via the common area. Access through Door [N-41].
+  completeOnEventKey: storageroom.05.complete
+  strictWhileActive: 1
+  onStart:
+  - {fileID: 11400000, guid: b12e3e5258a32de439a7b22ab89c59d7, type: 2}
+  - {fileID: 11400000, guid: 332c0ab7a77e15e498b70557974e2bac, type: 2}
+  - {fileID: 11400000, guid: 980cfb2e32f5c27478810ab778c6d981, type: 2}
+  - {fileID: 11400000, guid: 28ad9d1a1bd6e474e91e197da12e8795, type: 2}
+  onComplete:
+  - {fileID: 11400000, guid: f5e959097fe04714e90001e7bd62470d, type: 2}
+  - {fileID: 11400000, guid: b9016735870643c48afb30b40337ad30, type: 2}

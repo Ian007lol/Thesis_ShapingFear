@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6375fd59a2a59f84db05789dc2091b51, type: 3}
+  m_Name: tut_Interact
+  m_EditorClassIdentifier: Assembly-CSharp::TutorialDefinition
+  tutorialId: tut.interact
+  text: 'Press E to interact with items and Vents.
+
+    Interacting with vents allows
+    you to muffle your voice and redirect it somewhere else. '
+  pauseTime: 1
+  oneShot: 1
+  allowContinueAfterSeconds: 3
+  showContinueHintAfterSeconds: 3

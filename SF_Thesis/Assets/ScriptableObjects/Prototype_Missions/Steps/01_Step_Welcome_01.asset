@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fac8d077789b8c244a1efd86c6477e87, type: 3}
+  m_Name: 01_Step_Welcome_01
+  m_EditorClassIdentifier: Assembly-CSharp::MissionStepDefinition
+  stepId: step.welcome.01
+  objectiveText: 
+  completeOnEventKey: welcome.completed
+  strictWhileActive: 1
+  onStart:
+  - {fileID: 11400000, guid: becf3596c6eafaf448250de3f24729e5, type: 2}
+  - {fileID: 11400000, guid: c63b455a3032a8b4f8ac357e69531aa1, type: 2}
+  onComplete: []

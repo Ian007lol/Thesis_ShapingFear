@@ -1,0 +1,669 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.6.16",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Walkman_01_body"
+    },
+    {
+      "mesh": 1,
+      "name": "Walkman_01_tape"
+    },
+    {
+      "mesh": 2,
+      "name": "Walkman_01_foam"
+    },
+    {
+      "mesh": 3,
+      "name": "Walkman_01_headphones"
+    },
+    {
+      "mesh": 4,
+      "name": "Walkman_01_flap"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Walkman_01_body",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Walkman_01_tape",
+      "normalTexture": {
+        "index": 3
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Walkman_01_foam",
+      "normalTexture": {
+        "index": 6
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 7
+        },
+        "metallicRoughnessTexture": {
+          "index": 8
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Walkman_01_headphones",
+      "normalTexture": {
+        "index": 9
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 10
+        },
+        "metallicRoughnessTexture": {
+          "index": 11
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Walkman_01_body.001",
+      "normalTexture": {
+        "index": 12
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 13
+        },
+        "metallicRoughnessTexture": {
+          "index": 14
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Mesh.004",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "Mesh.005",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2
+        }
+      ]
+    },
+    {
+      "name": "Mesh.006",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 3
+        }
+      ]
+    },
+    {
+      "name": "Mesh.013",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 16,
+            "NORMAL": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TEXCOORD_0": 22
+          },
+          "indices": 23,
+          "material": 4
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    },
+    {
+      "sampler": 0,
+      "source": 8
+    },
+    {
+      "sampler": 0,
+      "source": 9
+    },
+    {
+      "sampler": 0,
+      "source": 10
+    },
+    {
+      "sampler": 0,
+      "source": 11
+    },
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 12
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "name": "Walkman_01_body_nor_gl",
+      "uri": "textures/Walkman_01_body_nor_gl_4k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "Walkman_01_body_diff",
+      "uri": "textures/Walkman_01_body_diff_4k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "Walkman_01_body_metallic-Walkman_01_body_roughness",
+      "uri": "textures/Walkman_01_body_arm_4k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "Walkman_01_tape_nor_gl",
+      "uri": "textures/Walkman_01_tape_nor_gl_4k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "Walkman_01_tape_diff",
+      "uri": "textures/Walkman_01_tape_diff_4k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "Walkman_01_tape_metallic-Walkman_01_tape_roughness",
+      "uri": "textures/Walkman_01_tape_arm_4k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "Walkman_01_foam_nor_gl",
+      "uri": "textures/Walkman_01_foam_nor_gl_4k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "Walkman_01_foam_diff",
+      "uri": "textures/Walkman_01_foam_diff_4k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "Walkman_01_foam_metallic-Walkman_01_foam_roughness",
+      "uri": "textures/Walkman_01_foam_arm_4k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "Walkman_01_headphones_nor_gl",
+      "uri": "textures/Walkman_01_headphones_nor_gl_4k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "Walkman_01_headphones_diff",
+      "uri": "textures/Walkman_01_headphones_diff_4k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "Walkman_01_headphones_metallic-Walkman_01_headphones_roughness",
+      "uri": "textures/Walkman_01_headphones_arm_4k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "Walkman_01_body_diff-Walkman_01_body_opacity",
+      "uri": "textures/Walkman_01_body_diff_4k.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 5160,
+      "max": [
+        0.043254561722278595,
+        0.13626015186309814,
+        0.013541802763938904
+      ],
+      "min": [
+        -0.04522287845611572,
+        -1.7848654110252937e-8,
+        -0.014114121906459332
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5160,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5160,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 14826,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 1364,
+      "max": [
+        0.022489693015813828,
+        0.10763102769851685,
+        0.013087192550301552
+      ],
+      "min": [
+        -0.039976537227630615,
+        0.007131565362215042,
+        0.0014586306642740965
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 1364,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 1364,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 3870,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 2328,
+      "max": [
+        0.08452446013689041,
+        0.04086074233055115,
+        0.10015955567359924
+      ],
+      "min": [
+        0.012654606252908707,
+        0.0007672980427742004,
+        0.028289712965488434
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 2328,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 2328,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 10368,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 9669,
+      "max": [
+        0.26905539631843567,
+        0.18771862983703613,
+        0.25943779945373535
+      ],
+      "min": [
+        -0.1649118959903717,
+        -0.00014778226613998413,
+        -0.12317068874835968
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 9669,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 9669,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5123,
+      "count": 41262,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 453,
+      "max": [
+        0.025383785367012024,
+        0.11048047244548798,
+        0.013548470102250576
+      ],
+      "min": [
+        -0.04463942348957062,
+        -1.1175870895385742e-8,
+        0.0030596242286264896
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 453,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 453,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5123,
+      "count": 1278,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 62,
+      "max": [
+        -0.0007867999374866486,
+        0.09039505571126938,
+        0.013541808351874352
+      ],
+      "min": [
+        -0.02629384770989418,
+        0.025071091949939728,
+        0.0111764557659626
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 62,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 62,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5123,
+      "count": 204,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 61920,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 61920,
+      "byteOffset": 61920
+    },
+    {
+      "buffer": 0,
+      "byteLength": 41280,
+      "byteOffset": 123840
+    },
+    {
+      "buffer": 0,
+      "byteLength": 29652,
+      "byteOffset": 165120
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16368,
+      "byteOffset": 194772
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16368,
+      "byteOffset": 211140
+    },
+    {
+      "buffer": 0,
+      "byteLength": 10912,
+      "byteOffset": 227508
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7740,
+      "byteOffset": 238420
+    },
+    {
+      "buffer": 0,
+      "byteLength": 27936,
+      "byteOffset": 246160
+    },
+    {
+      "buffer": 0,
+      "byteLength": 27936,
+      "byteOffset": 274096
+    },
+    {
+      "buffer": 0,
+      "byteLength": 18624,
+      "byteOffset": 302032
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20736,
+      "byteOffset": 320656
+    },
+    {
+      "buffer": 0,
+      "byteLength": 116028,
+      "byteOffset": 341392
+    },
+    {
+      "buffer": 0,
+      "byteLength": 116028,
+      "byteOffset": 457420
+    },
+    {
+      "buffer": 0,
+      "byteLength": 77352,
+      "byteOffset": 573448
+    },
+    {
+      "buffer": 0,
+      "byteLength": 82524,
+      "byteOffset": 650800
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5436,
+      "byteOffset": 733324
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5436,
+      "byteOffset": 738760
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3624,
+      "byteOffset": 744196
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2556,
+      "byteOffset": 747820
+    },
+    {
+      "buffer": 0,
+      "byteLength": 744,
+      "byteOffset": 750376
+    },
+    {
+      "buffer": 0,
+      "byteLength": 744,
+      "byteOffset": 751120
+    },
+    {
+      "buffer": 0,
+      "byteLength": 496,
+      "byteOffset": 751864
+    },
+    {
+      "buffer": 0,
+      "byteLength": 408,
+      "byteOffset": 752360
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 752768,
+      "uri": "Walkman_01.bin"
+    }
+  ]
+}

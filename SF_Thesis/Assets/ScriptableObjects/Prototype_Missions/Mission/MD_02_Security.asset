@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e5dcc70bef8a64b86731b847c29b83, type: 3}
+  m_Name: MD_02_Security
+  m_EditorClassIdentifier: Assembly-CSharp::MissionDefinition
+  missionId: mission.security
+  steps:
+  - {fileID: 11400000, guid: 03ea29c3f4a06814587b38fd304027b8, type: 2}
+  - {fileID: 11400000, guid: 85050ad66a1d77747900219f76d303d7, type: 2}
+  - {fileID: 11400000, guid: 8820ca40cb52de345b7814c77c1aa2de, type: 2}
+  - {fileID: 11400000, guid: 8c99c9bb0d0ad264e9b29317d0caeead, type: 2}
+  - {fileID: 11400000, guid: 7fc31ee79c02d6b4e9ec130d9a8477f3, type: 2}

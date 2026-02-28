@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fac8d077789b8c244a1efd86c6477e87, type: 3}
+  m_Name: 01_Step_Welcome_03
+  m_EditorClassIdentifier: Assembly-CSharp::MissionStepDefinition
+  stepId: step.welcome.03
+  objectiveText: exit the elevator
+  completeOnEventKey: welcome.03.complete
+  strictWhileActive: 1
+  onStart: []
+  onComplete:
+  - {fileID: 11400000, guid: 25e79577d950f424a95519fa9b3a9c75, type: 2}
+  - {fileID: 11400000, guid: 97808ff3b50e4ef49976ebd0e8de77e8, type: 2}
+  - {fileID: 11400000, guid: 5076ff749bbfac144b0674ab8a7fdbc1, type: 2}

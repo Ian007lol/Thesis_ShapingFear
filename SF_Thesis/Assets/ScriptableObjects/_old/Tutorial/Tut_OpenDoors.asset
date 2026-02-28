@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6375fd59a2a59f84db05789dc2091b51, type: 3}
+  m_Name: Tut_OpenDoors
+  m_EditorClassIdentifier: Assembly-CSharp::TutorialDefinition
+  tutorialId: open.doors
+  text: 'Hold . to talk witht he AI
+
+    Say the door ID outloud
+
+    e.G: "Open
+    A Eleven"'
+  pauseTime: 1
+  oneShot: 1
+  allowContinueAfterSeconds: 2
+  showContinueHintAfterSeconds: 2
