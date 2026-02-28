@@ -46,3 +46,15 @@ Work Repository for the development of the thesis game ShapingFear
 | Floor hatch | "Floor hatch" (https://skfb.ly/oZr8q) by elesso | CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/) |
 | Monitor | "Monitor - SCP" (https://skfb.ly/6RKYR) by Maxime66410 | CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/) |
 | Power cable wiring | "Power Cable Wiring" (https://skfb.ly/oSKIF) by Mehdi Shahsavan | CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/) |
+
+### Created by ChatGPT (OpenAI)
+- Level 3 map poster  
+- Variant 1 & 2 of *Life in the Bunker* poster  
+
+### Modified using ChatGPT
+- Original Stereo: https://i.pinimg.com/736x/7f/dc/4e/7fdc4e58b5f2fd4d1c3dbfab0a9c81a0.jpg  
+- Original Science: https://i.pinimg.com/736x/66/55/a9/6655a942ea579d99a97294ccbb691858.jpg  
+- Original Picture: https://i.pinimg.com/736x/6a/57/68/6a576813152a4ce1bc8ca356b94aaba0.jpg  
+- Original Unstable Reality: https://i.pinimg.com/1200x/c1/7f/d0/c17fd0491f4917e31b000c849b28afaa.jpg
+
+All blockout geometry, including walls, floors, ceilings, and basic architectural structures, was designed and implemented by the author unless otherwise specified in the asset list above. This includes the spatial layout, modular construction logic, and environmental composition of the prototype. External assets were integrated and contextually adapted to support the intended atmosphere and gameplay design.
