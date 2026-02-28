@@ -1,5 +1,7 @@
 # ShapingFear
 Work Repository for the development of the thesis game ShapingFear
+## The main scene is called Prototype_Scene.unity
+
 
 # Used Asset Sources
 | Asset | Credit / Source | License / Notes |
