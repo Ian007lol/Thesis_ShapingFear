@@ -1,5 +1,8 @@
 # ShapingFear
 Work Repository for the development of the thesis game ShapingFear
+# Dependencies
+Blender
+Unity 6000.2.6f2
 ## The main scene is called Prototype_Scene.unity
 
 
