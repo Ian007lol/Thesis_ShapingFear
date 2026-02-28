@@ -1,5 +1,7 @@
 # ShapingFear
 Work Repository for the development of the thesis game ShapingFear
+
+# Used Asset Sources
 | Asset | Credit / Source | License / Notes |
 |-------|-----------------|-----------------|
 | Exit sign picture | https://media.licdn.com/dms/image/v2/C4E12AQH4thBiPgvNVQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520060223828?e=2147483647&v=beta&t=AhdO3eYvJ1gpH4J-G6wF8B7Fpc_z9oXkicu0E0qNyEM | Image source as linked |
